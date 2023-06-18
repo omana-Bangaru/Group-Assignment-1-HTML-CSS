@@ -1,0 +1,103 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 0 20px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.labform {
+    overflow: scroll;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 70%;
+    padding: 40px;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+    background-color: rgba(233, 236, 238, 0.954);
+    box-shadow: 0 20px 25px rgb(139, 160, 177);
+    border-radius: 10px;
+    resize: none;
+}
+
+.labform {
+    background-image: url(Images/Lab-Test/lab-test.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 45% 100%;
+    background-position: right;
+}
+
+.labform .details {
+    position: absolute;
+    width: 40%;
+    justify-content: left;
+}
+
+.details p {
+    text-align: left;
+}
+
+.details input {
+    min-width: 200px;
+    font-size: 12px;
+    padding: 5px 0;
+    color: black;
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background-color: white;
+
+}
+
+.checkbox {
+    margin: 0px;
+    padding-left: 0%;
+    font-size: 12px;
+    text-align: left;
+    position: relative;
+    vertical-align: middle;
+    width: auto;
+
+}
+
+.details label {
+    font-size: 12px;
+    position: absolute;
+    display: block;
+    word-wrap: break-word;
+    white-space: nowrap;
+    margin: 0%;
+    width: auto;
+
+}
+
+.buttons {
+    position: absolute;
+    bottom: 30px;
+}
+
+.buttons button {
+    margin: 20px;
+    width: 80px;
+    border-radius: 4px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(175, 102, 243);
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+}
